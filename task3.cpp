@@ -10,7 +10,7 @@ int main()
 	int cycle = 1, total = 0;
 	while (cycle <= 1000)
 	{
-		total = total + cycle;
+		total += cycle;
 		cycle++;
 	}
 	cout << "сумма чисел от 1 до 1000 = " << total << endl
