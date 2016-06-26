@@ -17,7 +17,7 @@ int main()
 	}
 	while (a <= 20)
 	{
-		total = total * a;
+		total *= a;
 		a++;
 	}
 	cout << "произведение чисел = " << total << endl;
