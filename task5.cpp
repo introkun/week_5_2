@@ -7,7 +7,7 @@ int main()
 {
 	setlocale(LC_ALL, "rus");
 
-	int k, factor=2;
+	int k, factor = 2;
 
 	cout << "выводит на экран таблицу умножения на k" "\n"
 		"введите к ";
