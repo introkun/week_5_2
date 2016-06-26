@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <locale.h>
 
 using namespace std;
@@ -7,22 +7,24 @@ int main()
 {
 	setlocale(LC_ALL, "rus");
 	int b = 500;
-	int a, totle = 0;
+	int a, total = 0;
 
 	cout << "узнаем сумму целых чисел от а до 500" "\n"
 		"введите число a: ";
 	cin >> a;
+
 	if (a > b)
 	{
 		cout << "a больше 500, нельзя выполнить задачу";
 		return 1;
 	}
-	while (a<=b)
+
+	while (a <= b)
 	{
-		totle = totle + a;
+		total += a;
 		a++;
 	}
-	cout << "сумма целых чисел от a до 500 = " << totle << endl;
+	cout << "сумма целых чисел от a до 500 = " << total << endl;
 }
 
 
